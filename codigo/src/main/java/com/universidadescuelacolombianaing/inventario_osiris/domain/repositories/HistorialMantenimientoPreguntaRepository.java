@@ -1,0 +1,7 @@
+package com.universidadescuelacolombianaing.inventario_osiris.domain.repositories;
+
+import com.universidadescuelacolombianaing.inventario_osiris.domain.entities.HistorialMantenimientoPreguntaEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HistorialMantenimientoPreguntaRepository extends JpaRepository<HistorialMantenimientoPreguntaEntity, Integer> {
+}

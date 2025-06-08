@@ -1,0 +1,11 @@
+package com.universidadescuelacolombianaing.inventario_osiris.domain.repositories.views;
+
+import com.universidadescuelacolombianaing.inventario_osiris.domain.entities.views.InventarioHistorialUltimoRegistroVwEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Set;
+
+public interface InventarioHistorialUltimoRegistroVwRepository extends JpaRepository<InventarioHistorialUltimoRegistroVwEntity, Integer> {
+	Set<InventarioHistorialUltimoRegistroVwEntity> findAllByBloqueContainingIgnoreCase(String bloque);
+	Set<InventarioHistorialUltimoRegistroVwEntity> findAllByUbicacionContainingIgnoreCase(String ubicacion);
+}

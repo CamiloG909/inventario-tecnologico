@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Inventario Osiris ECI</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+			font-size: 17px;
+			background-color: #ffff;
+		}
+
+		.mt {
+			margin-top: 15px;
+		}
+
+		.mb {
+			margin-bottom: 15px;
+		}
+
+		.pt {
+			padding-top: 15px;
+		}
+
+		.pb {
+			padding-bottom: 15px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.primary {
+			color: #2D6BFF;
+		}
+
+		.container {
+			margin-left: auto;
+			margin-right: auto;
+			width: 95%;
+		}
+
+		.header {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			text-align: center;
+			font-weight: bold;
+			color: #ffff !important;
+			border-radius: 15px;
+			font-size: 32px;
+			background-color: #2D6BFF;
+		}
+
+		.date-text {
+			margin-top: 20px;
+			margin-bottom: 15px;
+			font-size: 16px;
+			font-weight: bold;
+			color: #000;
+		}
+
+		.normal {
+			font-size: 17px;
+			line-height: 25px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			color: #000;
+		}
+
+		.subtitle {
+			font-size: 19px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			font-weight: bold;
+			line-height: 30px;
+			color: #000;
+		}
+
+		.btn-red {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 8px;
+			margin-top: 20px;
+			padding: 7px;
+			width: 200px;
+			text-align: center;
+			font-size: 19px;
+			font-weight: bold;
+			color: white;
+			border-radius: 10px;
+			border: 1px solid #729cff;
+			background-color: #2D6BFF;
+			transition: all 0.3s ease;
+			cursor: pointer;
+			user-select: none;
+			text-decoration: none;
+		}
+
+		.btn-red:hover {
+			border-color: #2D6BFF;
+			background-color: #1F4AB2;
+		}
+
+		.btn-red:active {
+			border-color: #1F4AB2;
+		}
+
+		.text-btn {
+			font-size: 14px;
+			margin-top: 5px;
+			margin-bottom: 20px;
+			color: #000;
+		}
+
+		.footer {
+			padding-left: 15px;
+			padding-right: 15px;
+			border-radius: 15px;
+			background-color: #eeeeee;
+			user-select: none;
+		}
+
+		.footer p {
+			margin-top: 10px;
+			font-size: 14px;
+			font-weight: 500;
+		}
+
+		.white-text {
+			color: #fff !important;
+		}
+	</style>
+</head>
+<body>
+<div role="presentation" class="container">
+	<div class="header"><p class="white-text">INVENTARIO OSIRIS</p></div>
+	<div class="body-email">
+		<p class="date-text">{fecha}</p>
+		{body}
+	</div>
+	<br />
+	<div role="presentation" class="footer">
+		<br/>
+		<img
+			src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa_-_Universidad.webp/800px-Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa_-_Universidad.webp.png"
+			alt="Logo ECI"
+			width="150"
+		/>
+		<p>
+			No responder este email.
+		</p>
+		<br/>
+	</div>
+</div>
+<br/>
+</body>
+</html>
